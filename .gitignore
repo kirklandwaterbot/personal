@@ -1,0 +1,64 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Codex repository hygiene
+# Local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+secrets.local.*
+Private-Data/
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated output and local tooling
+.next/
+dist/
+build/
+out/
+coverage/
+playwright-report/
+test-results/
+.tmp/
+*.tsbuildinfo
+*.log
+.vercel/
+.DS_Store
+Thumbs.db
+desktop.ini
